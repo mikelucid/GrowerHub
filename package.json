@@ -1,0 +1,37 @@
+{
+    "private": true,
+    "main": "resources/assets/js/app.js",
+    "scripts": {
+        "dev": "npm run development",
+        "development": "npx mix",
+        "watch": "npx mix watch",
+        "hot": "npx mix watch --hot",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "@fortawesome/fontawesome": "^1.1.8",
+        "@fortawesome/fontawesome-free-solid": "^5.0.13",
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/vue-fontawesome": "2.0.6",
+        "jquery": "^3.6.0",
+        "lodash": "^4.17.21",
+        "select2": "^4.1.0-rc.0",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "axios": "^0.24",
+        "bootstrap": "^4.5.3",
+        "bootstrap-vue": "^2.21.2",
+        "laravel-mix": "^6.0.3",
+        "popper.js": "^1.16.1",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.4.0",
+        "sass-loader": "^12.1.0",
+        "vue": "^2.6.12",
+        "vue-izitoast": "^1.2.1",
+        "vue-loader": "^15.9.7"
+    },
+    "web-types": "./node-modules/bootstrap-vue/dist/web-types.json"
+}
